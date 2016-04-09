@@ -1,0 +1,11 @@
+This program is designed to take text files with data scraped from amazon reviews and perform a regression using SVM to determine the quality of review, in the sense of predicting how many people are likely to find the review helpful. The goal is to create a tool that could be used to help in prefiltering useless reviews, or to give them less weight when determining the average customer rating of product. 
+
+
+Input files should be downcased and named according to the name of the review, with spaces replaced by underscores, stripped of punctuation, and given the extension .dat. So the review titled "This book was UTTER TRASH!!!" should be named this_book_was_utter_trash.dat. In the case of multiple reviews with the same name, subsequent reviews should be named this_book_was_utter_trash-2.dat, this_book_was_utter_trash-3.dat, and so on. The file itself should have the unaltered title of the review as the first line. The second line should be the number  of people who found the review helpful. The third line should be the full text of the review, with any newlines removed. The fourth line should be the number of reviews written by the author of this review. The fifth line should be the number of reviews that were written by the author within the last year. Finally, the sixth line should be the date that the review in question was published. Then this_book_was_utter_trash.dat should look like this;
+
+This book was UTTER TRASH!!!
+4
+this was bad it was so bad it was terrible dont read it or ur a loser.
+7
+2
+24/6/2016

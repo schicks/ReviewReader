@@ -1,6 +1,8 @@
 import sys
 import os
-from sklearn.svm import SVR
+import math
+import numpy
+from combine import CombiningClassifier
 from sklearn.feature_extraction.text import TfidfVectorizer
 from datetime import datetime
 import sklearn.cross_validation as cv
@@ -13,15 +15,18 @@ targets = list()
 revCounts = list()
 revRates = list()
 dates = list()
+extraVecs=list()
 for f in names:  # grabs information from files
     cur = open(f + ".dat").readlines()
-    texts.append(cur[2])
-    targets.append(eval(cur[1]))
-    titles.append(cur[0])
+    texts.append(cur[0]+cur[2])
+    targets.append(math.log(eval(cur[1])))
     revCounts.append(eval(cur[3]))
     revRates.append(eval(cur[4]))
     dates.append(datetime.strptime(cur[5], "%D"))
+    extraVecs.append((eval(cur[3]),eval(cur[4]),len(cur[2])))
 extract = TfidfVectorizer(stop_words='english')
-textLearner = SVR()
-quality = cv.cross_val_score(textLearner, extract.fit_transform(texts), targets, cv=10, n_jobs=-1)
+data = extract.fit_transform(texts)
+numpy.insert(data, 0, extraVecs, axis=0)
+learner = CombiningClassifier()
+quality = cv.cross_val_score(learner, data, targets, cv=10, n_jobs=-1)
 print(quality)

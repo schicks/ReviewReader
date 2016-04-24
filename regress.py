@@ -11,15 +11,14 @@ usage(in a python shell for interactivity); from regress.py import main; main(pa
 This prints the quality assessment of the regressor and leave it saved in the variable 'learner' for further use. """
 
 
-def main(args):
-    folder = args
+def main(folder):
     names = os.listdir(folder)
     texts = list()
     targets = list()
     for f in names:  # grabs information from files
-        cur = open(f + ".dat").readlines()
-        texts.append(f+cur[1])
-        targets.append(math.log(eval(cur[0])))
+        cur = open(folder + "/" + f).readlines()
+        texts.append(os.path.splitext(f)[0] + cur[1])
+        targets.append(math.log(evalWithCommas(cur[0])))
     extract = TfidfVectorizer(stop_words='english')
     print("extracting text...")
     data = extract.fit_transform(texts)
@@ -27,3 +26,13 @@ def main(args):
     print("evaluating regressor...")
     quality = cv.cross_val_score(learner, data, targets, cv=10, n_jobs=-1)
     print(quality)
+
+
+def evalWithCommas(numberString):
+    oMag = 1
+    returned = 0
+    for n in numberString[::-1]:
+        if n in "0123456789":
+            returned += eval(n) * oMag
+            oMag *= 10
+    return returned

@@ -1,11 +1,13 @@
 import os
 import numpy as np
+import math
 import matplotlib.pyplot as plt
+import re
 from sys import argv
 from scipy import interp
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.cross_validation import KFold, cross_val_score
+from sklearn.cross_validation import StratifiedKFold
 from sklearn.metrics import auc, roc_curve
 
 """Takes a folder with folders of .dat files formatted as specified and extracts their data.
@@ -23,13 +25,12 @@ def main(folder):
         names = os.listdir(folder+"/"+book)
         curtargets = list()
         for f in names:  # grabs information from files
-            cur = open(folder + "/"+book+"/" + f).readlines()
-            texts.append(os.path.splitext(f)[0] + cur[1])
-            curtargets.append(evalWithCommas(cur[0]))
-        best=max(curtargets)
-        targets.extend([.1 < (i/best) for i in curtargets])
+            cur = open(folder + "/"+book+"/" + f).readline()
+            curtargets.append(math.log(evalWithCommas(re.match("([0-9,]*)", cur).group(1))))
+            texts.append(os.path.splitext(f)[0] + cur)
+        targets.extend(booleanize(curtargets))
     extract = TfidfVectorizer(stop_words='english')
-    cv = KFold(len(targets), n_folds=5)
+    cv = StratifiedKFold(targets, n_folds=5)
     print("extracting text...")
     targets=np.array(targets)
     data = extract.fit_transform(texts)
@@ -52,8 +53,6 @@ def main(folder):
     plt.plot(mean_fpr, mean_tpr, 'k--',
              label='Mean ROC (area = %0.2f)' % mean_auc, lw=2)
 
-    print(cross_val_score(learner, data, targets, cv=cv, n_jobs=-1, scoring='roc_auc'))
-
     plt.xlim([-0.05, 1.05])
     plt.ylim([-0.05, 1.05])
     plt.xlabel('False Positive Rate')
@@ -61,7 +60,6 @@ def main(folder):
     plt.title('Receiver operating characteristic example')
     plt.legend(loc="lower right")
     plt.show()
-
 
 
 def evalWithCommas(numberString):
@@ -72,5 +70,14 @@ def evalWithCommas(numberString):
             returned += eval(n) * oMag
             oMag *= 10
     return returned
+
+
+def booleanize(targets):
+    sortedTargets = sorted(targets)
+    booleans = list()
+    for i in targets:
+        booleans.append(i not in sortedTargets[0:len(targets)/10])
+    return(booleans)
+
 
 main(argv[1])

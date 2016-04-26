@@ -8,7 +8,7 @@ from scipy import interp
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.cross_validation import StratifiedKFold
-from sklearn.metrics import auc, roc_curve
+from sklearn.metrics import auc, roc_curve, f1_score
 
 """Takes a folder with folders of .dat files formatted as specified and extracts their data.
 
@@ -26,25 +26,31 @@ def main(folder):
         curtargets = list()
         for f in names:  # grabs information from files
             cur = open(folder + "/"+book+"/" + f).readline()
-            curtargets.append(math.log(evalWithCommas(re.match("([0-9,]*)", cur).group(1))))
+            curtargets.append(math.log(evalWithCommas(re.match("([0-9,]*)", cur).group(1))))#targets.append(math.log(evalWithCommas(re.match("([0-9,]*)", cur).group(1))))
             texts.append(os.path.splitext(f)[0] + cur)
-        targets.extend(booleanize(curtargets))
+        targets.extend(normalize(curtargets))
     extract = TfidfVectorizer(stop_words='english')
-    cv = StratifiedKFold(targets, n_folds=5)
     print("extracting text...")
-    targets=np.array(targets)
+    targets = np.array(booleanize(targets))
+    cv = StratifiedKFold(targets, n_folds=3)
     data = extract.fit_transform(texts)
-    learner = RandomForestClassifier()
+    learner = RandomForestClassifier(1000, n_jobs=-1)
     mean_tpr = 0
     mean_fpr = np.linspace(0, 1, 100)
+    f1s = list()
 
     for i, (train_index, test_index) in enumerate(cv):
-        probas = learner.fit(data[train_index], targets[train_index]).predict_proba(data[test_index])
+        print "analyzing fold %d" %(i+1)
+        learner.fit(data[train_index], targets[train_index])
+
+        probas = learner.predict_proba(data[test_index])
+        preds = learner.predict(data[test_index])
+        f1s.append(f1_score(targets[test_index], preds))
         fpr, tpr, thresholds = roc_curve(targets[test_index], probas[:, 1])
         mean_tpr += interp(mean_fpr, fpr, tpr)
         mean_tpr[0] = 0.0
         roc_auc = auc(fpr, tpr)
-        plt.plot(fpr, tpr, lw=1, label='ROC fold %d (area = %0.2f)' % (i, roc_auc))
+        plt.plot(fpr, tpr, lw=1, label='ROC fold %d (area = %0.2f)' % (i+1, roc_auc))
     plt.plot([0, 1], [0, 1], '--', color=(0.6, 0.6, 0.6), label='Luck')
 
     mean_tpr /= len(cv)
@@ -59,7 +65,12 @@ def main(folder):
     plt.ylabel('True Positive Rate')
     plt.title('Receiver operating characteristic example')
     plt.legend(loc="lower right")
-    plt.show()
+    plt.savefig("paperStuff/images/ROC.png")
+    avf=0
+    for i in f1s:
+        avf+=i
+    avf/=len(f1s)
+    print avf
 
 
 def evalWithCommas(numberString):
@@ -75,9 +86,16 @@ def evalWithCommas(numberString):
 def booleanize(targets):
     sortedTargets = sorted(targets)
     booleans = list()
+    threshold = math.floor(len(targets)*.1)
+    print threshold
     for i in targets:
-        booleans.append(i not in sortedTargets[0:len(targets)/10])
+        booleans.append(i not in sortedTargets[0:int(threshold)])
     return(booleans)
+
+def normalize(targets):
+    best = max(targets)
+    return [i/best for i in targets]
+
 
 
 main(argv[1])

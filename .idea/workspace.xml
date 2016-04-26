@@ -2,701 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9deb2e66-8c02-4735-a0ed-559beff063bd" name="Default" comment="regress.py now uses SVR">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/a_beautiful__if_a_bit_impractical__edition_of_the_book.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/a_worthy_addition_to_anyones_collection.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/absolutely_fantastic.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/an_awful_book_that_should_get_0_or_less_stars.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/annoying_drivel.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/at_last.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/aweful.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/beautiful_boxset_with_delightful_illustrations.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/best_available_box_set.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/beware_this_edition.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/beyond_five_stars.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/by_any_measure_lotr_has_earned_its_place_as_a_classic.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/c_s_lewis_midwife_to_the_lord_of_the_rings.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/do_not_buy_this_edition.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/excellent_annotations.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/excellent_edition.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/excellent_edition_of_this_masterpiece.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/excellent_kindle_edition.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/finally_a_real_unabridged_recording_of_lotr.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/good_compared_to_other_editions.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/great_book_not_a_leather_binding.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/great_performance_by_inglis_but_some_quibbles.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/i_hope_the_movie_is_better_than_the_book.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/if_i_were_stranded_on_a_desert_island_id_want_this_book.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/kindle_edition_was_an_absolute_disgrace__finally_fixed.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/kindle_edition_well_formatted.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/lord_of_the_ringsmillennium_edition.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/magical_memories.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/many_pages_little_of_interest.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/mass_deception.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/my_absolute_favorite_book.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/newFiles/a_beautiful__if_a_bit_impractical__edition_of_the_book.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/newFiles/a_worthy_addition_to_anyones_collection.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/newFiles/absolutely_fantastic.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/newFiles/an_awful_book_that_should_get_0_or_less_stars.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/newFiles/annoying_drivel.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/newFiles/at_last.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/newFiles/aweful.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/newFiles/beautiful_boxset_with_delightful_illustrations.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/newFiles/best_available_box_set.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/newFiles/beware_this_edition.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/newFiles/beyond_five_stars.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/newFiles/by_any_measure_lotr_has_earned_its_place_as_a_classic.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/newFiles/c_s_lewis_midwife_to_the_lord_of_the_rings.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/newFiles/do_not_buy_this_edition.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/newFiles/excellent_annotations.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/newFiles/excellent_edition.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/newFiles/excellent_edition_of_this_masterpiece.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/newFiles/excellent_kindle_edition.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/newFiles/finally_a_real_unabridged_recording_of_lotr.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/newFiles/good_compared_to_other_editions.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/newFiles/great_book_not_a_leather_binding.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/newFiles/great_performance_by_inglis_but_some_quibbles.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/newFiles/i_hope_the_movie_is_better_than_the_book.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/newFiles/if_i_were_stranded_on_a_desert_island_id_want_this_book.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/newFiles/kindle_edition_was_an_absolute_disgrace__finally_fixed.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/newFiles/kindle_edition_well_formatted.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/newFiles/lord_of_the_ringsmillennium_edition.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/newFiles/magical_memories.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/newFiles/many_pages_little_of_interest.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/newFiles/mass_deception.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/newFiles/my_absolute_favorite_book.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/newFiles/not_knowing_when_to_stop.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/newFiles/not_ready_for_purchase_yet__updated_51811_ready_now.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/newFiles/poor_quality_control.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/newFiles/possibly_the_dullest_book_ive_ever_read.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/newFiles/product_specific_review_only__no_story_comments.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/newFiles/really_the_best_way_to_read_the_hobbit.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/newFiles/review_for_houghtonmifflin_isbn_0618002251_edition_with_cover_illustrations_by_alan_lee.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/newFiles/review_of_kindle_edition.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/newFiles/review_on_editions.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/newFiles/rob_inglis_is_a_great_reader.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/newFiles/special_note_on_cd_version.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/newFiles/specifically_about_the_millennium_edition.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/newFiles/stunning_collectors_edition.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/newFiles/super_fantastic.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/newFiles/terrific_contents_poor_printing.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/newFiles/the_definitive_text_beautifully_presented_and_a_bargain.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/newFiles/the_finest_edition_of_lotr_ever_published.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/newFiles/the_hobbit_from_national_public_radio.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/newFiles/the_hobbit_jemima_catlin.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/newFiles/the_lord_of_the_rings_collectors_edition.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/newFiles/the_millenium_edition.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/newFiles/the_millenium_edition_is_the_definitive_edition.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/newFiles/the_most_overrated_trilogy_of_the_century.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/newFiles/this_edition_is_a_disgrace.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/newFiles/tolkien_is_tops_but_this_edition_shaky_on_quality.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/newFiles/very_nice_set_of_books_for_the_price_recommended_read_review_and_view_pics_for_detail_on_font_for_pocketsized_paperback.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/newFiles/weak_maps_spelling_errors_dont_do_justice.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/newFiles/what_a_perfect_performance.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/nltkProperNoun.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/not_knowing_when_to_stop.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/not_ready_for_purchase_yet__updated_51811_ready_now.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/poor_quality_control.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/possibly_the_dullest_book_ive_ever_read.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/product_specific_review_only__no_story_comments.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/really_the_best_way_to_read_the_hobbit.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/review_for_houghtonmifflin_isbn_0618002251_edition_with_cover_illustrations_by_alan_lee.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/review_of_kindle_edition.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/review_on_editions.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/rob_inglis_is_a_great_reader.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/special_note_on_cd_version.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/specifically_about_the_millennium_edition.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/stunning_collectors_edition.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/super_fantastic.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/terrific_contents_poor_printing.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/the_definitive_text_beautifully_presented_and_a_bargain.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/the_finest_edition_of_lotr_ever_published.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/the_hobbit_from_national_public_radio.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/the_hobbit_jemima_catlin.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/the_lord_of_the_rings_collectors_edition.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/the_millenium_edition.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/the_millenium_edition_is_the_definitive_edition.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/the_most_overrated_trilogy_of_the_century.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/this_edition_is_a_disgrace.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/tolkien_is_tops_but_this_edition_shaky_on_quality.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/very_nice_set_of_books_for_the_price_recommended_read_review_and_view_pics_for_detail_on_font_for_pocketsized_paperback.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/weak_maps_spelling_errors_dont_do_justice.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/based lord reviews/what_a_perfect_performance.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gatsby_reviews/a_book_that_lived_up_to_all_of_my_expectations1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gatsby_reviews/a_fine_depiction_and_representation_of_the_american_dream2.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gatsby_reviews/a_great_book_really8.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gatsby_reviews/a_journey_back_in_time6.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gatsby_reviews/a_monument_in_audio_book_history4.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gatsby_reviews/a_scathing_review_of_the_1920s9.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gatsby_reviews/as_boring_today_as_it_was_in_19258.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gatsby_reviews/beat_me_up_if_you_likebut_i_dont_know_what_the_hype_is_all_about6.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gatsby_reviews/beautiful_prose_yet_shallow_book7.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gatsby_reviews/beautiful_romantic_tragic7.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gatsby_reviews/decades_later_still_great_but_on_different_terms1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gatsby_reviews/decent1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gatsby_reviews/depressing_pointless_semispoiler9.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gatsby_reviews/disliked_greatly8.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gatsby_reviews/dont_bother_with_the_movie3.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gatsby_reviews/fitzgerald_writes_a_beautiful_tragic_novel2.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gatsby_reviews/foreign_amp_meaningless_to_me5.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gatsby_reviews/gatsby_the_great_lie7.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gatsby_reviews/gatsby_timfoolery0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gatsby_reviews/great_story_beautiful_work_of_art_amp_brilliant_reflection5.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gatsby_reviews/great_writing_but_a_dark_story4.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gatsby_reviews/green_eyed_jealousy0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gatsby_reviews/heartrending3.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gatsby_reviews/i_guess_im_in_the_minority1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gatsby_reviews/i_loved_this_book_as_a_college_person_and_really_struggled_9.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gatsby_reviews/ive_never_cared_for_it_but5.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gatsby_reviews/like_a_fine_wine_it_gets_even_better_with_age6.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gatsby_reviews/literary_masterpiece_and_a_fantastic_copy3.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gatsby_reviews/many_misunderstood_the_meaning_and_message_of_this_book4.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gatsby_reviews/much_better_than_when_i_read_it_involuntarily_in_high_school8.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gatsby_reviews/newFiles/a_book_that_lived_up_to_all_of_my_expectations1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gatsby_reviews/newFiles/a_fine_depiction_and_representation_of_the_american_dream2.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gatsby_reviews/newFiles/a_great_book_really8.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gatsby_reviews/newFiles/a_journey_back_in_time6.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gatsby_reviews/newFiles/a_monument_in_audio_book_history4.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gatsby_reviews/newFiles/a_scathing_review_of_the_1920s9.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gatsby_reviews/newFiles/as_boring_today_as_it_was_in_19258.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gatsby_reviews/newFiles/beat_me_up_if_you_likebut_i_dont_know_what_the_hype_is_all_about6.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gatsby_reviews/newFiles/beautiful_prose_yet_shallow_book7.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gatsby_reviews/newFiles/beautiful_romantic_tragic7.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gatsby_reviews/newFiles/decades_later_still_great_but_on_different_terms1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gatsby_reviews/newFiles/decent1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gatsby_reviews/newFiles/depressing_pointless_semispoiler9.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gatsby_reviews/newFiles/disliked_greatly8.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gatsby_reviews/newFiles/dont_bother_with_the_movie3.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gatsby_reviews/newFiles/fitzgerald_writes_a_beautiful_tragic_novel2.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gatsby_reviews/newFiles/foreign_amp_meaningless_to_me5.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gatsby_reviews/newFiles/gatsby_the_great_lie7.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gatsby_reviews/newFiles/gatsby_timfoolery0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gatsby_reviews/newFiles/great_story_beautiful_work_of_art_amp_brilliant_reflection5.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gatsby_reviews/newFiles/great_writing_but_a_dark_story4.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gatsby_reviews/newFiles/green_eyed_jealousy0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gatsby_reviews/newFiles/heartrending3.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gatsby_reviews/newFiles/i_guess_im_in_the_minority1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gatsby_reviews/newFiles/i_loved_this_book_as_a_college_person_and_really_struggled_9.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gatsby_reviews/newFiles/ive_never_cared_for_it_but5.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gatsby_reviews/newFiles/like_a_fine_wine_it_gets_even_better_with_age6.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gatsby_reviews/newFiles/literary_masterpiece_and_a_fantastic_copy3.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gatsby_reviews/newFiles/many_misunderstood_the_meaning_and_message_of_this_book4.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gatsby_reviews/newFiles/much_better_than_when_i_read_it_involuntarily_in_high_school8.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gatsby_reviews/newFiles/not_really_for_me3.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gatsby_reviews/newFiles/note_on_kindle_editions0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gatsby_reviews/newFiles/nothing_great_about_it9.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gatsby_reviews/newFiles/one_of_the_worlds_great_novels5.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gatsby_reviews/newFiles/read_it_and_see_for_youself6.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gatsby_reviews/newFiles/robbins_was_not_the_best__choice_for_voice0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gatsby_reviews/newFiles/scathing2.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gatsby_reviews/newFiles/shines_brilliantly_like_a_justdiscovered_piece_of_cameo_jewelry_from_a_bygone_era2.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gatsby_reviews/newFiles/third_time_still_not_the_charm7.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gatsby_reviews/newFiles/tragic_end_to_a_dream4.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gatsby_reviews/nltkProperNoun.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gatsby_reviews/not_really_for_me3.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gatsby_reviews/note_on_kindle_editions0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gatsby_reviews/nothing_great_about_it9.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gatsby_reviews/one_of_the_worlds_great_novels5.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gatsby_reviews/read_it_and_see_for_youself6.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gatsby_reviews/robbins_was_not_the_best__choice_for_voice0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gatsby_reviews/scathing2.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gatsby_reviews/shines_brilliantly_like_a_justdiscovered_piece_of_cameo_jewelry_from_a_bygone_era2.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gatsby_reviews/third_time_still_not_the_charm7.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gatsby_reviews/tragic_end_to_a_dream4.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reviews/a_beautiful__if_a_bit_impractical__edition_of_the_book.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reviews/a_worthy_addition_to_anyones_collection.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reviews/absolutely_fantastic.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reviews/at_last.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reviews/beautiful_boxset_with_delightful_illustrations.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reviews/best_available_box_set.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reviews/beware_this_edition.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reviews/beyond_five_stars.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reviews/by_any_measure_lotr_has_earned_its_place_as_a_classic.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reviews/c_s_lewis_midwife_to_the_lord_of_the_rings.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reviews/do_not_buy_this_edition.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reviews/excellent_annotations.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reviews/excellent_edition.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reviews/excellent_edition_of_this_masterpiece.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reviews/excellent_kindle_edition.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reviews/finally_a_real_unabridged_recording_of_lotr.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reviews/good_compared_to_other_editions.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reviews/great_book_not_a_leather_binding.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reviews/great_performance_by_inglis_but_some_quibbles.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reviews/if_i_were_stranded_on_a_desert_island_id_want_this_book.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reviews/kindle_edition_was_an_absolute_disgrace__finally_fixed.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reviews/kindle_edition_well_formatted.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reviews/lord_of_the_ringsmillennium_edition.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reviews/magical_memories.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reviews/my_absolute_favorite_book.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reviews/nltkProperNoun" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reviews/nltkProperNoun.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reviews/not_ready_for_purchase_yet__updated_51811_ready_now.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reviews/poor_quality_control.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reviews/product_specific_review_only__no_story_comments.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reviews/really_the_best_way_to_read_the_hobbit.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reviews/review_for_houghtonmifflin_isbn_0618002251_edition_with_cover_illustrations_by_alan_lee.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reviews/review_of_kindle_edition.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reviews/review_on_editions.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reviews/rob_inglis_is_a_great_reader.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reviews/special_note_on_cd_version.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reviews/specifically_about_the_millennium_edition.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reviews/stunning_collectors_edition.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reviews/super_fantastic.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reviews/terrific_contents_poor_printing.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reviews/the_definitive_text_beautifully_presented_and_a_bargain.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reviews/the_finest_edition_of_lotr_ever_published.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reviews/the_hobbit_from_national_public_radio.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reviews/the_hobbit_jemima_catlin.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reviews/the_lord_of_the_rings_collectors_edition.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reviews/the_millenium_edition.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reviews/the_millenium_edition_is_the_definitive_edition.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reviews/this_edition_is_a_disgrace.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reviews/tolkien_is_tops_but_this_edition_shaky_on_quality.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reviews/very_nice_set_of_books_for_the_price_recommended_read_review_and_view_pics_for_detail_on_font_for_pocketsized_paperback.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reviews/weak_maps_spelling_errors_dont_do_justice.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reviews/what_a_perfect_performance.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/a_brilliantly_unique_look_at_a_universal_problem.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/a_changing_holden.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/a_classic_one_of_my_favorites.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/a_great_misunderstood_novel.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/a_gripping_classic_that_will_always_be_relevant.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/a_hard_act_to_follow.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/a_masterpiece.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/a_thoroughly_enjoyable_book.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/a_timeless_honest_controversial_superbly_written_tale.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/a_what_in_the_rye.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/all_i_want_to_know_is_if_she_still_keeps_her_kings_in_the_back_row.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/an_american_classic.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/an_unpopular_look_at_a_literary_classic.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/another_latecomer.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/best_book_ive_ever_read.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/buy_a_different_edition.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/catcher_in_the_rye_book.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/classic.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/couldnt_put_this_one_down.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/cynical_beauty.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/dealing_with_late_struggles_of_youth.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/eh.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/ever_wonder_what_kind_of_book_gets_banned.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/excellent_book.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/frank_tibbetts.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/growing_up_is_hard_to_do.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/holden_caulfield_is_still_alive_after_fifty_years.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/holden_is_the_best.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/holden_on_for_dear_life.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/i_liked_it_more_at_24_then_when_i_was_15.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/if_holden_caulfield_reviewed_this_book.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/if_this_is_adolescence_im_glad_i_missed_it.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/in_my_opinion_weirdly_overrated.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/jd_salinger_published_this_reputed_american_classic_in_1951.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/meh.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/moving_through_a_young_mind_into_life.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/newFiles/a_brilliantly_unique_look_at_a_universal_problem.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/newFiles/a_changing_holden.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/newFiles/a_classic_one_of_my_favorites.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/newFiles/a_great_misunderstood_novel.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/newFiles/a_gripping_classic_that_will_always_be_relevant.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/newFiles/a_hard_act_to_follow.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/newFiles/a_masterpiece.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/newFiles/a_thoroughly_enjoyable_book.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/newFiles/a_timeless_honest_controversial_superbly_written_tale.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/newFiles/a_what_in_the_rye.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/newFiles/all_i_want_to_know_is_if_she_still_keeps_her_kings_in_the_back_row.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/newFiles/an_american_classic.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/newFiles/an_unpopular_look_at_a_literary_classic.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/newFiles/another_latecomer.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/newFiles/best_book_ive_ever_read.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/newFiles/buy_a_different_edition.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/newFiles/catcher_in_the_rye_book.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/newFiles/classic.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/newFiles/couldnt_put_this_one_down.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/newFiles/cynical_beauty.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/newFiles/dealing_with_late_struggles_of_youth.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/newFiles/eh.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/newFiles/ever_wonder_what_kind_of_book_gets_banned.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/newFiles/excellent_book.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/newFiles/frank_tibbetts.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/newFiles/growing_up_is_hard_to_do.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/newFiles/holden_caulfield_is_still_alive_after_fifty_years.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/newFiles/holden_is_the_best.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/newFiles/holden_on_for_dear_life.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/newFiles/i_liked_it_more_at_24_then_when_i_was_15.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/newFiles/if_holden_caulfield_reviewed_this_book.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/newFiles/if_this_is_adolescence_im_glad_i_missed_it.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/newFiles/in_my_opinion_weirdly_overrated.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/newFiles/jd_salinger_published_this_reputed_american_classic_in_1951.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/newFiles/meh.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/newFiles/moving_through_a_young_mind_into_life.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/newFiles/not_to_sure.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/newFiles/one_of_the_few_regrets_i_had_in_college.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/newFiles/overrated.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/newFiles/pure_torture_a_colossal_waste_of_time.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/newFiles/review_number_1050.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/newFiles/teenage_depression_and_the_catcher_in_the_rye.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/newFiles/thanks_holden.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/newFiles/the_alienated_teens_bible.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/newFiles/the_book_kids_who_hate_books_love.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/newFiles/the_catcher_in_the_rye.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/newFiles/the_four_days_of_delirium.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/newFiles/the_frozen_lake.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/newFiles/the_most_misunderstood_book_in_all_of_literature.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/newFiles/this_book_is_different.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/newFiles/this_is_a_very_famous_book_banned_in_librariesschools__must_read.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/newFiles/timeless_anthem_to_the_lonely.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/newFiles/universal_tale.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/newFiles/very_fun_read.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/newFiles/want_to_punish_yourself__read_all_214_pages.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/newFiles/whats_the_big_deal.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/newFiles/who_made_this_book_a_classic.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/newFiles/whos_phony_now.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/newFiles/will_linger_in_your_mind_and_heart_forever.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/newFiles/yeah_yeah_but.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/nltkProperNoun.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/not_to_sure.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/one_of_the_few_regrets_i_had_in_college.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/overrated.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/pure_torture_a_colossal_waste_of_time.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/review_number_1050.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/teenage_depression_and_the_catcher_in_the_rye.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/thanks_holden.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/the_alienated_teens_bible.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/the_book_kids_who_hate_books_love.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/the_catcher_in_the_rye.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/the_four_days_of_delirium.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/the_frozen_lake.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/the_most_misunderstood_book_in_all_of_literature.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/this_book_is_different.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/this_is_a_very_famous_book_banned_in_librariesschools__must_read.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/timeless_anthem_to_the_lonely.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/universal_tale.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/very_fun_read.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/want_to_punish_yourself__read_all_214_pages.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/whats_the_big_deal.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/who_made_this_book_a_classic.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/whos_phony_now.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/will_linger_in_your_mind_and_heart_forever.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rye_reviews/yeah_yeah_but.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/3_words_blew_me_away.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/52_years_old_and_very_much_a_committed_christian_and_enjoyed_it.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/a_book_to_get_your_kids_to_read.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/a_classic_conclusion_to_a_timeless_story.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/a_disappointing_end_to_what_could_have_been_a_truly_legendary_series.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/a_fitting_but_uneven_close_with_a_weak_start_and_strong_middle_35.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/a_fitting_end_to_a_wonderful_journey.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/a_note_to_parents.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/a_satisfying_summing_up.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/a_stunning_and_thoroughly_satisfying_conclusion.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/a_third_year_of_danger.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/a_tremendous_let_down.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/a_worthy_mature_finale_to_a_multilayered_series.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/absolutely_extraordinary.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/absolutely_terrific.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/an_excellent_story.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/an_instant_classic.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/and_the_adventure_continues.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/another_30_year_old_harry_fan.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/apocalyptic_hallows_takes_the_potter_crown.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/as_if_you_care_what_a_15_year_old_thinks_of_this_book.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/because_we_all_want_to_be_adults_at_age_17.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/brilliant.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/caution_on_published_review.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/changed_how_i_view_ya_literature__wonderful.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/consistant_growth_not_just_mindless_series_pap.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/convoluted_uneven_end_to_a_fine_series.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/deathly_dull.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/deathly_hollows__deadly_disappointment.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/disappointed.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/do_you_believe_in_magic_.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/duh_five_stars.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/end_of_an_era.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/fantastic_read_for_someone_of_any_age.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/five_stars_from_a_seventeenyearold_reader.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/for_those_of_us_that_grew_up_with_harry.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/great.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/harry_has_won_me_over.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/harry_potter__book_3.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/harry_potter_and_the_azkaban.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/harry_potter_and_the_deus_ex_machina.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/harry_potter_and_the_prisoner_of_azkaban.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/harry_potter_and_the_prisoner_of_azkaban_book_3.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/harry_potter_books_are_fantastic.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/heart.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/how_sad.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/i_absolutely_love_these_bookstoo_bad_theyre_so_short.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/i_just_couldnt_help_myself.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/if_the_entire_book_were_comparable_to_the_last_8_chapters.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/im_23_and_ive_read_it_twice.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/incredible_listen.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/its_over.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/jim_dale_makes_this_book_come_alive.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/jim_dales_reading_is_a_musthear.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/jk_rowling_does_not_disappointtoo_much.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/just_another_review.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/lackluster_conclusion.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/lucky_seven_indeed_potter.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/merely_adequate.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/ms_rowling_insults_her_readers.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/newFiles/3_words_blew_me_away.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/newFiles/52_years_old_and_very_much_a_committed_christian_and_enjoyed_it.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/newFiles/a_book_to_get_your_kids_to_read.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/newFiles/a_classic_conclusion_to_a_timeless_story.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/newFiles/a_disappointing_end_to_what_could_have_been_a_truly_legendary_series.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/newFiles/a_fitting_but_uneven_close_with_a_weak_start_and_strong_middle_35.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/newFiles/a_fitting_end_to_a_wonderful_journey.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/newFiles/a_note_to_parents.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/newFiles/a_satisfying_summing_up.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/newFiles/a_stunning_and_thoroughly_satisfying_conclusion.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/newFiles/a_third_year_of_danger.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/newFiles/a_tremendous_let_down.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/newFiles/a_worthy_mature_finale_to_a_multilayered_series.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/newFiles/absolutely_extraordinary.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/newFiles/absolutely_terrific.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/newFiles/an_excellent_story.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/newFiles/an_instant_classic.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/newFiles/and_the_adventure_continues.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/newFiles/another_30_year_old_harry_fan.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/newFiles/apocalyptic_hallows_takes_the_potter_crown.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/newFiles/as_if_you_care_what_a_15_year_old_thinks_of_this_book.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/newFiles/because_we_all_want_to_be_adults_at_age_17.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/newFiles/brilliant.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/newFiles/caution_on_published_review.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/newFiles/changed_how_i_view_ya_literature__wonderful.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/newFiles/consistant_growth_not_just_mindless_series_pap.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/newFiles/convoluted_uneven_end_to_a_fine_series.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/newFiles/deathly_dull.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/newFiles/deathly_hollows__deadly_disappointment.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/newFiles/disappointed.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/newFiles/do_you_believe_in_magic_.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/newFiles/duh_five_stars.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/newFiles/end_of_an_era.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/newFiles/fantastic_read_for_someone_of_any_age.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/newFiles/five_stars_from_a_seventeenyearold_reader.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/newFiles/for_those_of_us_that_grew_up_with_harry.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/newFiles/great.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/newFiles/harry_has_won_me_over.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/newFiles/harry_potter__book_3.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/newFiles/harry_potter_and_the_azkaban.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/newFiles/harry_potter_and_the_deus_ex_machina.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/newFiles/harry_potter_and_the_prisoner_of_azkaban.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/newFiles/harry_potter_and_the_prisoner_of_azkaban_book_3.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/newFiles/harry_potter_books_are_fantastic.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/newFiles/heart.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/newFiles/how_sad.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/newFiles/i_absolutely_love_these_bookstoo_bad_theyre_so_short.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/newFiles/i_just_couldnt_help_myself.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/newFiles/if_the_entire_book_were_comparable_to_the_last_8_chapters.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/newFiles/im_23_and_ive_read_it_twice.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/newFiles/incredible_listen.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/newFiles/its_over.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/newFiles/jim_dale_makes_this_book_come_alive.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/newFiles/jim_dales_reading_is_a_musthear.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/newFiles/jk_rowling_does_not_disappointtoo_much.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/newFiles/just_another_review.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/newFiles/lackluster_conclusion.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/newFiles/lucky_seven_indeed_potter.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/newFiles/merely_adequate.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/newFiles/ms_rowling_insults_her_readers.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/newFiles/nice_cd_set.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/newFiles/oi_seven_spoilerless_reasons_for_3_stars.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/newFiles/one_of_my_favorite_books_2nd_best_of_the_potter_books.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/newFiles/one_of_the_best_books_ive_ever_read.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/newFiles/please_deliver_to_miss_hermione_granger.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/newFiles/please_ms_rowling_i_want_some_more.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/newFiles/proof_that_even_legendary_writers_need_good_editors.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/newFiles/rowlings_work_reaches_an_even_better_level.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/newFiles/sad__very_sad.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/newFiles/satisfying_but_not_amazing.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/newFiles/sort_of_an_anticlimax.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/newFiles/spellbinding.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/newFiles/stil_a_great_great_book.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/newFiles/terrific.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/newFiles/the_3rd_installment_of_harry_potters_cult.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/newFiles/the_best_harry_potter_book_prior_to_july_8_2000.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/newFiles/the_best_harry_potter_yet.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/newFiles/the_best_of_the_best.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/newFiles/the_best_series_going_bar_none.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/newFiles/the_good_news_at_least_its_over.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/newFiles/the_good_the_bad_and_the_ugly.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/newFiles/the_ultimate_pickerupper.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/newFiles/the_wild_ride_continues.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/newFiles/third_book_still_a_great_and_popular_work.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/newFiles/third_time_is_still_charming.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/newFiles/this_book_gets_an_f_for_fabulous.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/newFiles/this_is_what_happens_when_an_author_is_rushed_and_prevented_from_making_revisions.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/newFiles/this_was_an_extremely_disappointing_ending_to_a_series_which_was_on_the_whole_very_very_good.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/newFiles/thoughts_from_an_older_reader.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/newFiles/too_long_but_good_life_lessons_for_all.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/newFiles/too_much_not_enough_and_missed_opportunities.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/newFiles/ultimately_disappointing.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/newFiles/unfortunately_a_letdown.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/newFiles/unparalleled.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/newFiles/were_captured_by_jk_rowling.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/newFiles/what_a_horrible_disappointmentspoiler_alert.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/newFiles/why_are_you_reading_my_review_instead_of_the_book.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/newFiles/wraps_up_the_loose_ends_but_still_something_is_missing.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/nice_cd_set.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/nltkProperNoun.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/oi_seven_spoilerless_reasons_for_3_stars.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/one_of_my_favorite_books_2nd_best_of_the_potter_books.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/one_of_the_best_books_ive_ever_read.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/please_deliver_to_miss_hermione_granger.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/please_ms_rowling_i_want_some_more.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/proof_that_even_legendary_writers_need_good_editors.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/rowlings_work_reaches_an_even_better_level.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/sad__very_sad.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/satisfying_but_not_amazing.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/sort_of_an_anticlimax.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/spellbinding.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/stil_a_great_great_book.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/terrific.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/the_3rd_installment_of_harry_potters_cult.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/the_best_harry_potter_book_prior_to_july_8_2000.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/the_best_harry_potter_yet.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/the_best_of_the_best.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/the_best_series_going_bar_none.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/the_good_news_at_least_its_over.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/the_good_the_bad_and_the_ugly.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/the_ultimate_pickerupper.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/the_wild_ride_continues.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/third_book_still_a_great_and_popular_work.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/third_time_is_still_charming.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/this_book_gets_an_f_for_fabulous.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/this_is_what_happens_when_an_author_is_rushed_and_prevented_from_making_revisions.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/this_was_an_extremely_disappointing_ending_to_a_series_which_was_on_the_whole_very_very_good.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/thoughts_from_an_older_reader.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/too_long_but_good_life_lessons_for_all.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/too_much_not_enough_and_missed_opportunities.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/ultimately_disappointing.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/unfortunately_a_letdown.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/unparalleled.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/were_captured_by_jk_rowling.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/what_a_horrible_disappointmentspoiler_alert.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/why_are_you_reading_my_review_instead_of_the_book.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sirius dank reviews/wraps_up_the_loose_ends_but_still_something_is_missing.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/a_beautiful_uplifting_novel2.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/a_book_worth_reading_but_not_dickens_best5.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/a_great_classic_that_is_worthy_of_the_21st_century9.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/a_masterful_ending8.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/a_story_to_remember_forever1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/a_tale_of_two_cities2.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/a_tale_of_two_cities8.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/a_tale_of_two_cities_is_an_exciting_and_entertaining_classic9.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/a_tale_of_two_cities_paints_a_beautiful_while_dark_story_of_the_french_revolution8.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/a_tale_of_two_men5.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/a_tale_reborn0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/a_tale_youll_love_citizen9.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/abridged6.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/abridged__disappointment__still_a_beautiful_tale_of_love__revenge_and_chaos4.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/abridged_alert4.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/an_awesome_tale_of_the_horrors_of_political_revolution1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/an_eighth_grader_reviews_a_tale_of_two_cities0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/an_interesting_classic2.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/astounded0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/awesome0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/awesome__my_favorite_dickens_novel6.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/beyond_simple_narration9.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/create_space_edition_is_all_but_unreadable7.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/different_story_about_a_different_time7.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/ending_gave_me_chills7.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/every_evil_will_be_brought_to_its_earthly_justice9.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/excellent_free_kindle_edition6.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/exceptional_edition3.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/extreme_displeasure5.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/fraudulent_advertising7.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/glad_to_be_manipulated4.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/high_school_nightmare_becomes_5star_adult_read4.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/i_loved_it3.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/incredibleamazingoutstandingdeserves_100_stars_at_least7.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/it_is_a_far_far_better_book_than_dickens_others8.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/it_is_the_best_of_books_it_is_the_worst_of_books3.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/it_was_the_best_of_times_reading_this_book0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/masterful_work_of_literature1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/monseigneur_is_too_a_major_character8.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/my_bucket_reading_list5.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/newFiles/a_beautiful_uplifting_novel2.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/newFiles/a_book_worth_reading_but_not_dickens_best5.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/newFiles/a_great_classic_that_is_worthy_of_the_21st_century9.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/newFiles/a_masterful_ending8.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/newFiles/a_story_to_remember_forever1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/newFiles/a_tale_of_two_cities2.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/newFiles/a_tale_of_two_cities8.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/newFiles/a_tale_of_two_cities_is_an_exciting_and_entertaining_classic9.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/newFiles/a_tale_of_two_cities_paints_a_beautiful_while_dark_story_of_the_french_revolution8.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/newFiles/a_tale_of_two_men5.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/newFiles/a_tale_reborn0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/newFiles/a_tale_youll_love_citizen9.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/newFiles/abridged6.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/newFiles/abridged__disappointment__still_a_beautiful_tale_of_love__revenge_and_chaos4.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/newFiles/abridged_alert4.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/newFiles/an_awesome_tale_of_the_horrors_of_political_revolution1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/newFiles/an_eighth_grader_reviews_a_tale_of_two_cities0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/newFiles/an_interesting_classic2.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/newFiles/astounded0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/newFiles/awesome0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/newFiles/awesome__my_favorite_dickens_novel6.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/newFiles/beyond_simple_narration9.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/newFiles/create_space_edition_is_all_but_unreadable7.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/newFiles/different_story_about_a_different_time7.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/newFiles/ending_gave_me_chills7.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/newFiles/every_evil_will_be_brought_to_its_earthly_justice9.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/newFiles/excellent_free_kindle_edition6.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/newFiles/exceptional_edition3.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/newFiles/extreme_displeasure5.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/newFiles/fraudulent_advertising7.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/newFiles/glad_to_be_manipulated4.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/newFiles/high_school_nightmare_becomes_5star_adult_read4.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/newFiles/i_loved_it3.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/newFiles/incredibleamazingoutstandingdeserves_100_stars_at_least7.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/newFiles/it_is_a_far_far_better_book_than_dickens_others8.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/newFiles/it_is_the_best_of_books_it_is_the_worst_of_books3.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/newFiles/it_was_the_best_of_times_reading_this_book0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/newFiles/masterful_work_of_literature1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/newFiles/monseigneur_is_too_a_major_character8.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/newFiles/my_bucket_reading_list5.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/newFiles/nothing_lost_in_the_spotlight4.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/newFiles/one_for_the_ages6.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/newFiles/probably_the_best_dickens_book_ever3.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/newFiles/punctuation_errors3.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/newFiles/re_read_of_a_tale_of_two_cities4.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/newFiles/slow_to_develop_but_outstanding_by_the_end3.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/newFiles/sometimes_boring_but_worth_it6.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/newFiles/tale_of_two_cities5.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/newFiles/the_best_and_worst_of_a_tale_of_two_cities1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/newFiles/the_best_of_times6.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/newFiles/the_most_unforgettable_opening_and_closing_sentences_ever_found_in_a_book0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/newFiles/the_national_razor2.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/newFiles/the_political_intrigue_of_dickens2.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/newFiles/this_book_is_great_but9.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/newFiles/this_book_was_abridged_and_did_not_say_so_on_the_order_form_nor_on_the_cover__i_could_not_use_it1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/newFiles/timeless_classic_wrought_w_mistakes_publisher_review7.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/newFiles/turbulent_times_in_london_and_paris5.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/newFiles/unbelievable2.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/newFiles/who_am_i_to_review_dickens1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/nltkProperNoun.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/nothing_lost_in_the_spotlight4.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/one_for_the_ages6.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/probably_the_best_dickens_book_ever3.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/punctuation_errors3.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/re_read_of_a_tale_of_two_cities4.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/slow_to_develop_but_outstanding_by_the_end3.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/sometimes_boring_but_worth_it6.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/tale_of_two_cities5.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/the_best_and_worst_of_a_tale_of_two_cities1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/the_best_of_times6.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/the_most_unforgettable_opening_and_closing_sentences_ever_found_in_a_book0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/the_national_razor2.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/the_political_intrigue_of_dickens2.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/this_book_is_great_but9.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/this_book_was_abridged_and_did_not_say_so_on_the_order_form_nor_on_the_cover__i_could_not_use_it1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/timeless_classic_wrought_w_mistakes_publisher_review7.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/turbulent_times_in_london_and_paris5.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/unbelievable2.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/two_cities_reviews/who_am_i_to_review_dickens1.dat" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/paperStuff/paper.pdf" afterPath="$PROJECT_DIR$/paperStuff/paper.pdf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/paperStuff/paper.synctex.gz" afterPath="$PROJECT_DIR$/paperStuff/paper.synctex.gz" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/paperStuff/paper.log" afterPath="$PROJECT_DIR$/paperStuff/paper.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/paperStuff/paper.tex" afterPath="$PROJECT_DIR$/paperStuff/paper.tex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/regress.py" afterPath="$PROJECT_DIR$/regress.py" />
     </list>
     <ignored path="iosevichNonspecificDatadventures.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -717,11 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="regress.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/regress.py">
+      <file leaf-file-name="classify.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/classify.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
-              <caret line="32" column="32" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
+            <state relative-caret-position="433">
+              <caret line="88" column="42" selection-start-line="88" selection-start-column="42" selection-end-line="88" selection-end-column="42" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -746,6 +55,7 @@
       <list>
         <option value="$PROJECT_DIR$/combine.py" />
         <option value="$PROJECT_DIR$/regress.py" />
+        <option value="$PROJECT_DIR$/classify.py" />
       </list>
     </option>
   </component>
@@ -778,6 +88,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -799,7 +110,6 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="RunManager" selected="Python.regress">
@@ -983,7 +293,7 @@
     <frame x="0" y="0" width="1598" height="874" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10653139" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10653139" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -997,7 +307,7 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32908162" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992327" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1018,7 +328,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/regress.py">
+    <entry file="file://$PROJECT_DIR$/classify.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1028,32 +338,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/regress.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/regress.py" />
+    <entry file="file://$PROJECT_DIR$/regress.py" />
+    <entry file="file://$PROJECT_DIR$/regress.py" />
     <entry file="file://$PROJECT_DIR$/combine.py" />
-    <entry file="file://$PROJECT_DIR$/regress.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/regress.py" />
     <entry file="file://$PROJECT_DIR$/combine.py" />
-    <entry file="file://$PROJECT_DIR$/regress.py">
+    <entry file="file://$PROJECT_DIR$/regress.py" />
+    <entry file="file://$PROJECT_DIR$/classify.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="32" column="32" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
+        <state relative-caret-position="433">
+          <caret line="88" column="42" selection-start-line="88" selection-start-column="42" selection-end-line="88" selection-end-column="42" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>

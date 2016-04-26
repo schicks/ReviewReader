@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Arch Linux) (preloaded format=pdflatex 2016.2.29)  26 APR 2016 10:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Arch Linux) (preloaded format=pdflatex 2016.2.29)  26 APR 2016 13:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -291,10 +291,10 @@ Missing character: There is no ™ in font cmr10!
 <images/ROC.png, id=12, 578.16pt x 433.62pt>
 File: images/ROC.png Graphic file (type png)
  <use images/ROC.png>
-Package pdftex.def Info: images/ROC.png used on input line 49.
+Package pdftex.def Info: images/ROC.png used on input line 50.
 (pdftex.def)             Requested size: 234.8775pt x 176.15768pt.
 
-Overfull \hbox (12.22221pt too wide) in paragraph at lines 48--50
+Overfull \hbox (12.22221pt too wide) in paragraph at lines 49--51
  [] 
  []
 
@@ -306,7 +306,7 @@ Missing character: There is no ™ in font cmr10!
 Here is how much of TeX's memory you used:
  3253 strings out of 493054
  50313 string characters out of 6140586
- 131013 words of memory out of 5000000
+ 120013 words of memory out of 5000000
  6758 multiletter control sequences out of 15000+600000
  8233 words of font info for 29 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -317,7 +317,7 @@ re/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/f
 onts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/publ
 ic/amsfonts/cm/cmr17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/
 cmr9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on paper.pdf (3 pages, 152308 bytes).
+Output written on paper.pdf (3 pages, 154033 bytes).
 PDF statistics:
  45 PDF objects out of 1000 (max. 8388607)
  30 compressed objects within 1 object stream

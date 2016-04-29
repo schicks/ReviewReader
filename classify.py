@@ -36,7 +36,7 @@ def main():
     addData[0] = integerfy(addData[0])
     addData = np.transpose(np.matrix(addData))
     print("generating folds...")
-    cv = StratifiedKFold(targets, n_folds=10)
+    cv = StratifiedKFold(targets, n_folds=3)
     print("extracting text...")
     data = extract.fit_transform(texts)
     print("performing feature reduction")
@@ -75,7 +75,7 @@ def main():
     plt.ylabel('True Negative Rate')
     plt.title('Receiver operating characteristic')
     plt.legend(loc="lower right")
-    plt.savefig("ROC.png", figsize=)
+    plt.savefig("ROC.png")
     avf=0
     for i in f1s:
         avf+=i

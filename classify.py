@@ -75,8 +75,7 @@ def main():
     plt.ylabel('True Negative Rate')
     plt.title('Receiver operating characteristic')
     plt.legend(loc="lower right")
-    plt.show()
-    plt.savefig("ROC.png")
+    plt.savefig("ROC.png", figsize=)
     avf=0
     for i in f1s:
         avf+=i

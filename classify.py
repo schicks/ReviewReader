@@ -1,12 +1,11 @@
-import os
 import numpy as np
 import math
 import matplotlib.pyplot as plt
-import re
-from sys import argv
-from scipy import interp
-from sklearn.ensemble import RandomForestClassifier
+import sqlite3 as sql
+from scipy import interp, stats
+from sklearn.naive_bayes import GaussianNB
 from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.feature_selection import SelectPercentile, chi2
 from sklearn.cross_validation import StratifiedKFold
 from sklearn.metrics import auc, roc_curve, f1_score
 
@@ -17,36 +16,47 @@ usage(in a python shell for interactivity); from regress.py import main; main(pa
 This prints the quality assessment of the regressor and leave it saved in the variable 'learner' for further use. """
 
 
-def main(folder):
-    books = os.listdir(folder)
+def main():
+    cursor = sql.connect('database.sqlite').cursor()
+    cursor.execute("SELECT HelpfulnessNumerator, Text, UserId, Time, Score from Reviews")
     texts = list()
     targets = list()
-    for book in books:
-        names = os.listdir(folder+"/"+book)
-        curtargets = list()
-        for f in names:  # grabs information from files
-            cur = open(folder + "/"+book+"/" + f).readline()
-            curtargets.append(math.log(evalWithCommas(re.match("([0-9,]*)", cur).group(1))))#targets.append(math.log(evalWithCommas(re.match("([0-9,]*)", cur).group(1))))
-            texts.append(os.path.splitext(f)[0] + cur)
-        targets.extend(normalize(curtargets))
+    addData = [list(), list(), list()]
+    reviews = cursor.fetchmany(10000)
+    for row in reviews:
+        texts.append(row[1])
+        addData[0].append(row[2])
+        addData[1].append(row[3])
+        addData[2].append(row[4])
+        targets.append(row[0])
     extract = TfidfVectorizer(stop_words='english')
+    print(texts[0])
+    print("binarizing...")
+    targets = np.array(binarize(targets))
+    addData[0] = integerfy(addData[0])
+    addData = np.transpose(np.matrix(addData))
+    print("generating folds...")
+    cv = StratifiedKFold(targets, n_folds=10)
     print("extracting text...")
-    targets = np.array(booleanize(targets))
-    cv = StratifiedKFold(targets, n_folds=3)
     data = extract.fit_transform(texts)
-    learner = RandomForestClassifier(1000, n_jobs=-1)
+    print("performing feature reduction")
+    data = SelectPercentile(chi2).fit_transform(data, targets)
+    learner = GaussianNB()
+    addLearner = GaussianNB()
     mean_tpr = 0
     mean_fpr = np.linspace(0, 1, 100)
     f1s = list()
 
     for i, (train_index, test_index) in enumerate(cv):
         print "analyzing fold %d" %(i+1)
-        learner.fit(data[train_index], targets[train_index])
-
-        probas = learner.predict_proba(data[test_index])
-        preds = learner.predict(data[test_index])
+        learner.fit(data[train_index].toarray(), targets[train_index])
+        addLearner.fit(addData[train_index], targets[train_index])
+        addprobas = addLearner.predict_proba(addData[test_index])
+        baseprobas = learner.predict_proba(data[test_index].toarray())
+        probas = [safehmean(addprobas[:,1][j], baseprobas[:,1][j]) for j in range(len(addprobas))]
+        preds = [k > .5 for k in probas]
         f1s.append(f1_score(targets[test_index], preds))
-        fpr, tpr, thresholds = roc_curve(targets[test_index], probas[:, 1])
+        fpr, tpr, thresholds = roc_curve(targets[test_index], probas)
         mean_tpr += interp(mean_fpr, fpr, tpr)
         mean_tpr[0] = 0.0
         roc_auc = auc(fpr, tpr)
@@ -61,11 +71,12 @@ def main(folder):
 
     plt.xlim([-0.05, 1.05])
     plt.ylim([-0.05, 1.05])
-    plt.xlabel('False Positive Rate')
-    plt.ylabel('True Positive Rate')
-    plt.title('Receiver operating characteristic example')
+    plt.xlabel('False Negative Rate')
+    plt.ylabel('True Negative Rate')
+    plt.title('Receiver operating characteristic')
     plt.legend(loc="lower right")
-    plt.savefig("paperStuff/images/ROC.png")
+    plt.show()
+    plt.savefig("ROC.png")
     avf=0
     for i in f1s:
         avf+=i
@@ -83,19 +94,37 @@ def evalWithCommas(numberString):
     return returned
 
 
-def booleanize(targets):
-    sortedTargets = sorted(targets)
+def binarize(targets):
     booleans = list()
-    threshold = math.floor(len(targets)*.1)
-    print threshold
+    threshold = sorted(targets)[int(math.floor(len(targets)*.1))]#clearly an integer, calm down python
     for i in targets:
-        booleans.append(i not in sortedTargets[0:int(threshold)])
-    return(booleans)
+        booleans.append(i is 0)
 
-def normalize(targets):
-    best = max(targets)
-    return [i/best for i in targets]
+    print len(booleans)
+    return booleans
 
 
+def integerfy(ids):
+    seen = dict()
+    count = 0
+    for id in ids:
+        if id not in seen:
+            seen[id] = count
+            count += 1
+    return [seen[id] for id in ids]
 
-main(argv[1])
+def isPositive(nums):
+    for i in nums:
+        if i<=0:
+            print i
+            return False
+    return True
+
+def safehmean(a,b):
+    try:
+        return stats.hmean([a,b])
+    except ValueError:
+        return 0
+
+
+main()
